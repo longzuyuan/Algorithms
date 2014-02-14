@@ -12,3 +12,17 @@
 	<iostream>
 	<string>
 
+1392258042 source:d:\github\algorithms\code\1_string_shift.cpp
+	<iostream>
+
+1392258042 source:d:\github\algorithms\code\main.cpp
+	<iostream>
+	"func.h"
+
+1392258042 d:\github\algorithms\code\func.h
+
+1392369679 source:d:\github\algorithms\code\2_compare_string.cpp
+	<iostream>
+	<string>
+	<cstring>
+
