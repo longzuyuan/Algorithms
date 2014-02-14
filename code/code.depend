@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1392258042 source:c:\users\szn27960\desktop\algorithm\code\main.cpp
+	<iostream>
+	"func.h"
+
+1392258042 source:c:\users\szn27960\desktop\algorithm\code\1_string_shift.cpp
+	<iostream>
+
+1392258042 c:\users\szn27960\desktop\algorithm\code\func.h
+
+1392273232 source:c:\users\szn27960\desktop\algorithm\code\2_compare_string.cpp
+	<iostream>
+	<string>
+
