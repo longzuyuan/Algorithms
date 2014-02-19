@@ -15,6 +15,7 @@
 #include <iostream>
 #include <string>
 #include <cstring>
+#include "util.h"
 
 using namespace std;
 
@@ -33,38 +34,6 @@ bool CheckString1(string s1, string s2)
         if(j==s1.length()) return false;
     }
     return true;
-}
-
-/**
- * 快排划分
- */
-int QuicksortPartition(string &s, int start, int end)
-{
-    int key = s[start]; //选取第一个为主元
-    int pivot = start;
-    for(int i=start+1; i<=end; i++)
-    {
-        if(s[i] <= key)
-        {
-            pivot ++;
-            swap(s[i], s[pivot]);
-        }
-    }
-    swap(s[start], s[pivot]);
-    return pivot;
-}
-
-/**
- * 快排
- */
-void Quicksort(string &s, int start, int end)
-{
-    if(start < end)
-    {
-        int pivot = QuicksortPartition(s, start, end);
-        Quicksort(s, start, pivot-1);
-        Quicksort(s, pivot+1, end);
-    }
 }
 
 /**
@@ -252,8 +221,8 @@ int CompareStringMain()
 
     s1 = s3; s2 = s4;
 
-    Quicksort(s1, 0, s1.length()-1);
-    Quicksort(s2, 0, s2.length()-1);
+    QuicksortChar(s1, 0, s1.length()-1);
+    QuicksortChar(s2, 0, s2.length()-1);
     b = CheckString2(s1, s2);
     cout << "A:" << s1 << " B:" << s2 << " Result:" << b << endl;
 
