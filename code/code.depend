@@ -15,13 +15,13 @@
 1392258042 source:d:\github\algorithms\code\1_string_shift.cpp
 	<iostream>
 
-1392689101 source:d:\github\algorithms\code\main.cpp
+1393402183 source:d:\github\algorithms\code\main.cpp
 	<iostream>
 	"func.h"
 	<ctime>
 	<cstdlib>
 
-1392628225 d:\github\algorithms\code\func.h
+1393402158 d:\github\algorithms\code\func.h
 
 1392631850 source:d:\github\algorithms\code\2_compare_string.cpp
 	<iostream>
@@ -29,7 +29,7 @@
 	<cstring>
 	"util.h"
 
-1392687453 source:d:\github\algorithms\code\3_top_k.cpp
+1392690064 source:d:\github\algorithms\code\3_top_k.cpp
 	<iostream>
 	"util.h"
 
@@ -39,4 +39,10 @@
 	<string>
 	<ctime>
 	<cstdlib>
+
+1393402044 source:d:\github\algorithms\code\a_find_1_counts.cpp
+	<iostream>
+
+1393402566 source:d:\github\algorithms\code\b_factorial_1.cpp
+	<iostream>
 

@@ -13,8 +13,14 @@ int main()
     //cout << "Find if all char in string B are existed in string A:" << endl;
     //CompareStringMain();
 
-    cout << "Top K:" << endl;
-    TopKMain();
+    //cout << "Top K:" << endl;
+    //TopKMain();
+
+    //cout << "Find 1 counts:" << endl;
+    //Find1Main();
+
+    cout << "Factorial:" << endl;
+    FactorialMain();
 
 
     return 0;

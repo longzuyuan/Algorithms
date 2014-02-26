@@ -34,8 +34,11 @@
 		</Compiler>
 		<Unit filename="1_string_shift.cpp" />
 		<Unit filename="2_Compare_String.cpp" />
+		<Unit filename="3_Top_K.cpp" />
 		<Unit filename="func.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="util.cpp" />
+		<Unit filename="util.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
