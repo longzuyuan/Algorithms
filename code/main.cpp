@@ -19,9 +19,11 @@ int main()
     //cout << "Find 1 counts:" << endl;
     //Find1Main();
 
-    cout << "Factorial:" << endl;
-    FactorialMain();
+    //cout << "Factorial:" << endl;
+    //FactorialMain();
 
+    cout << "Water King:" << endl;
+    FindWKingMain();
 
     return 0;
 }

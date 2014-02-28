@@ -15,13 +15,13 @@
 1392258042 source:d:\github\algorithms\code\1_string_shift.cpp
 	<iostream>
 
-1393402183 source:d:\github\algorithms\code\main.cpp
+1393478322 source:d:\github\algorithms\code\main.cpp
 	<iostream>
 	"func.h"
 	<ctime>
 	<cstdlib>
 
-1393402158 d:\github\algorithms\code\func.h
+1393478299 d:\github\algorithms\code\func.h
 
 1392631850 source:d:\github\algorithms\code\2_compare_string.cpp
 	<iostream>
@@ -43,6 +43,9 @@
 1393402044 source:d:\github\algorithms\code\a_find_1_counts.cpp
 	<iostream>
 
-1393402566 source:d:\github\algorithms\code\b_factorial_1.cpp
+1393478032 source:d:\github\algorithms\code\b_factorial_1.cpp
+	<iostream>
+
+1393481355 source:d:\github\algorithms\code\c_find_water_king.cpp
 	<iostream>
 
