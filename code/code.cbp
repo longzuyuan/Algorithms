@@ -38,6 +38,7 @@
 		<Unit filename="A_Find_1_Counts.cpp" />
 		<Unit filename="B_Factorial_1.cpp" />
 		<Unit filename="C_Find_Water_King.cpp" />
+		<Unit filename="D_OnesCount.cpp" />
 		<Unit filename="func.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="util.cpp" />

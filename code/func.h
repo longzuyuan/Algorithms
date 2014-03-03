@@ -10,3 +10,5 @@ int Find1Main();
 int FactorialMain();
 
 int FindWKingMain();
+
+int OnesCountMain();

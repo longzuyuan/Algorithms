@@ -49,3 +49,43 @@
 1393481355 source:d:\github\algorithms\code\c_find_water_king.cpp
 	<iostream>
 
+1393594154 source:e:\work\git\algorithms\code\1_string_shift.cpp
+	<iostream>
+
+1393594154 source:e:\work\git\algorithms\code\2_compare_string.cpp
+	<iostream>
+	<string>
+	<cstring>
+	"util.h"
+
+1393594155 e:\work\git\algorithms\code\util.h
+
+1393594154 source:e:\work\git\algorithms\code\3_top_k.cpp
+	<iostream>
+	"util.h"
+
+1393594154 source:e:\work\git\algorithms\code\a_find_1_counts.cpp
+	<iostream>
+
+1393594154 source:e:\work\git\algorithms\code\b_factorial_1.cpp
+	<iostream>
+
+1393594154 source:e:\work\git\algorithms\code\c_find_water_king.cpp
+	<iostream>
+
+1393594155 source:e:\work\git\algorithms\code\util.cpp
+	<string>
+	<ctime>
+	<cstdlib>
+
+1393756600 source:e:\work\git\algorithms\code\main.cpp
+	<iostream>
+	"func.h"
+	<ctime>
+	<cstdlib>
+
+1393756600 e:\work\git\algorithms\code\func.h
+
+1393771917 source:e:\work\git\algorithms\code\d_onescount.cpp
+	<iostream>
+

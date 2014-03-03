@@ -22,8 +22,11 @@ int main()
     //cout << "Factorial:" << endl;
     //FactorialMain();
 
-    cout << "Water King:" << endl;
-    FindWKingMain();
+    //cout << "Water King:" << endl;
+    //FindWKingMain();
+
+    cout << "One's Count:" << endl;
+    OnesCountMain();
 
     return 0;
 }
