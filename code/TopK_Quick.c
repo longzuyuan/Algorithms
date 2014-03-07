@@ -9,7 +9,7 @@
 #define CUTOFF 3
 
 #define MAXLEN 11
-#define K 1
+#define KK 1
 
 
 void printArray(int array[], int n)
@@ -102,12 +102,12 @@ int main()
     }
     printArray(array, MAXLEN);
 
-    quickSelect(array, K, 0, MAXLEN-1);
+    quickSelect(array, KK-1, 0, MAXLEN-1);
     //printf("\naa:%d\n", array[MAXLEN]);
 
     printArray(array, MAXLEN);
 
-    printf("%d", array[K]);
+    printf("%d", array[KK-1]);
 
     return 1;
 }

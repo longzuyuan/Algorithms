@@ -31,18 +31,18 @@ void swap(int *a, int *b)
 
 void HeapAdjust(int a[], int i, int len)
 {
-    int l = (i<<1) + 1;
-    int smallest = i;
+    int l = (i<<1) + 1; //left child: 2*i+1
+    int smallest = i; //the smallest index
 
-    while(l < len)
+    while(l < len) //loop if left child exist
     {
-        if(a[l] < a[smallest]) smallest = l;
-        if((l+1)<len && a[l+1] < a[smallest]) smallest = l + 1;
+        if(a[l] < a[smallest]) smallest = l; //left child is smaller
+        if((l+1)<len && a[l+1] < a[smallest]) smallest = l + 1; //right child exist and smaller, right = left+1
 
-        if(i != smallest) swap(&a[i], &a[smallest]);
+        if(i != smallest) swap(&a[i], &a[smallest]); //smallest is in children
         else break;
 
-        l = (smallest<<1) + 1;
+        l = (smallest<<1) + 1; //init next loop
         i = smallest;
     }
 }
