@@ -62,7 +62,7 @@ void BuildHeap(int heap[], int n)
 
 int main()
 {
-    //createDataFile();return 0;
+    //createDataFile(); return 0;
 
     int k;
     cout << "Input K: ";
